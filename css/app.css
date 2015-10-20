@@ -147,3 +147,17 @@ main {
   margin-top: 2px;
   margin-left: 2px;
 }
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 4;
+border: 1px solid #000;
+border-radius: 5px;
+background: #FFFFFF;
+}
+
+li.tweet {
+border-bottom: 1px solid #000000;
+padding: 4;
+}
