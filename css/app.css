@@ -1,0 +1,163 @@
+header {
+  text-align: center;
+  margin-bottom: -15px;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background: #f5f5f5;
+  position: relative;
+}
+
+main {
+  padding-top: 55px;
+}
+
+.well{
+  background: #FFFFFF;
+  padding: 0;
+  min-height: 60px;
+}
+
+.user-info{
+  height: 200px;
+  background-image: linear-gradient(to bottom, #0084b4, #0084b4 50%, #FFFFFF 50%, #FFFFFF);
+  text-align: center;
+  font-weight: bold;
+}
+
+.user-info-img {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 5px;
+  background: #0084b4;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #FFFFFF;
+}
+
+.user-info-img button {
+  height: 50px;
+  width: 50px;
+  margin-top: 25%;
+  background: 0;
+  border-width: 0;
+  color: #FFFFFF;
+}
+
+.user-info-name {
+  margin-top: 110px;
+}
+
+.user-info-top{
+  height: 120px;
+  background-image: linear-gradient(to bottom, #0084b4, #0084b4 50%, #FFFFFF 50%, #FFFFFF);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.user-info-top-img {
+  height: 60px;
+  width: 60px;
+  margin-top: 30px;
+  margin-left: 15px;
+  background: #0084b4;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #FFFFFF;
+}
+
+.user-info-top-img button {
+  height: 30px;
+  width: 30px;
+  margin-top: 25%;
+  background: 0;
+  border-width: 0;
+  color: #FFFFFF;
+}
+
+.table {
+  background: #FFFFFF;
+}
+
+.form-control {
+  background: #f5f5f5;
+}
+
+.navbar {
+  -webkit-transition : all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-default {
+  background: #FFFFFF;
+  border-radius:0px;
+}
+
+.navbar-nav {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -35px !important;
+}
+
+.navbar-btn {
+  font-weight: 300;
+  background-color: #0084b4;
+  color: #FFFFFF
+}
+
+.navbar-nav a:hover{
+  background-image: linear-gradient(to bottom, transparent, transparent 90%, #0084b4 10%, #0084b4);
+}
+
+.navbar-nav a.active{
+  background-image: linear-gradient(to bottom, transparent, transparent 90%, #0084b4 10%, #0084b4);
+}
+
+.navbar img {
+    height: 75%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tweet-btn {
+  border-width: 0;
+  background: 0;
+  margin-right: 25px;
+  color: #D3D3D3;
+  display: inline;
+}
+
+.user-icon {
+  height: 48px;
+  width: 48px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 4;
+border: 1px solid #000;
+border-radius: 5px;
+background: #FFFFFF;
+}
+
+li.tweet {
+border-bottom: 1px solid #000000;
+padding: 4;
+}
